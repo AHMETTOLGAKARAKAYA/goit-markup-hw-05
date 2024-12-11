@@ -594,6 +594,8 @@ padding: 120px 0;
       background-color: #404bbf
     }
     .close-button-icon{
+      width: 8px;
+      height: 8px;
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
     }
     .close-button-icon:hover{
@@ -602,3 +604,37 @@ padding: 120px 0;
     .close-button-icon:focus{
       fill: #ffffff
     }
+
+    .modal-p{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 360px;
+  height: 24px;
+  top: 152px;
+  left: 540px;
+  gap: 0px;
+  opacity: 0px;
+  }
+  .modal-label{
+    width: 34px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:  #8E8F99;
+
+  
+  }
