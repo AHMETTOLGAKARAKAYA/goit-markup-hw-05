@@ -700,13 +700,41 @@ padding: 120px 0;
  .modal-textarea:hover{
   border-color: #4D5AE5;
  }
- .modal-button{
-  padding-top:24px;
-  padding-bottom: 24px;
-  padding-right: 96px;
-  padding-left: 95px;
-  left: 635px;
- }
+ .modal-privacy {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.modal-privacy__check {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+
+.modal-privacy-checkbox-custom {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+   fill: transparent;
+ 
+}
+
+.modal-link {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  
+  margin-left: 5px;
+}
+
+
+
  .btn-send{
   display: block;
   min-width:169px;
