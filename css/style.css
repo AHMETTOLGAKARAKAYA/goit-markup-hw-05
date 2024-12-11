@@ -587,7 +587,7 @@ padding: 120px 0;
     
     }
     .modal .modal-close-button:hover{
-      fill: #ffffff
+      fill: #ffffff;
       background-color: #404bbf;
       border: none;
     }
