@@ -588,10 +588,12 @@ padding: 120px 0;
     
     }
     .modal .modal-close-button:hover{
+      background-color: #404bbf;
       border: none;
     }
     .modal .modal-close-button:focus{
-      background-color: #404bbf
+      background-color: #404bbf;
+      border: none;
     }
     .close-button-icon{
       width: 8px;
