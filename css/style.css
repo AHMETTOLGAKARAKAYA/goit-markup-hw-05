@@ -719,7 +719,7 @@ padding: 120px 0;
   letter-spacing: 0.04.em;
   color:#8e8f99;
 }
-.modal-privacy-checkbox-custom {
+.modal-privacy .model-label .model-label-icon{
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -734,7 +734,7 @@ padding: 120px 0;
   margin-right: 5px;
 }
 
-.modal-checkbox:checked  .modal-privacy-checkbox-custom {
+.modal-checkbox:checked + .model-label .modal-label-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
